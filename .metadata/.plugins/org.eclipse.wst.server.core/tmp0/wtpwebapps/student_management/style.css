@@ -1,0 +1,111 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+.student_list{
+	width:100%;
+	border:1px solid black;
+	font-size: 1.5rem;
+}
+.student_list caption {
+  padding: 30px;
+}
+.student_list th,
+.student_list td{
+	border:1px solid black;
+	padding: 10px;
+    text-align: center;
+}
+.btn{
+	padding: 0.2rem 1rem;
+}
+.student_page {
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.student_page a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  border-left: 0;
+  line-height: 32px;
+}
+.student_page a:hover {
+  text-decoration: underline;
+}
+.student_page a.bt {
+  /* padding-top: 10px; */
+  font-size: 1.2rem;
+  letter-spacing: -1px;
+}
+.student_page a.num {
+  font-size: 1.4rem;
+}
+.student_page a.num.on {
+  border-color: #000;
+  background: #000;
+  color: #fff;
+}
+.bt_list {
+	margin-top: 15px;
+  	text-align: right;
+}
+/*add*/
+.student_wrap{
+	width: 1000px;
+  	margin: 0 auto;
+}
+.student_title {
+	text-align: center;
+  	margin: 30px 10px;
+}
+.student_title strong {
+  font-size: 3rem;
+}
+.student_add_wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.student_add{
+	width:900px;
+	border:1px solid black;
+	font-size: 1.5rem;
+}
+.student_add th,
+.student_add td{
+	border:1px solid black;
+	padding: 10px;
+    text-align: center;
+}
+.student_add td input{
+	float:left;
+	padding:0.5rem;
+	width:80%;
+}
+.btn{
+	padding: 0.2rem 1rem;
+	margin:0.1rem 2rem;
+	
+}
+
+
+
+
+
+
+
+
+
